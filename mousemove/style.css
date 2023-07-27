@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+h1 {
+    margin: 75px 0 0 350px;
+    width: 50px;
+}
+
+.box {
+    margin: 200px 0 0 0;
+    height: 250px;
+    border: 6px solid white;
+    transition: 0.25s ease;
+    background: black;
+    padding: 10px;
+}
+.mousemove {
+    height: 50px;
+    width: 50px;
+    border: 5px solid rgb(78, 22, 233);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    transition: 0.1s ease;
+    z-index: -1;
+}

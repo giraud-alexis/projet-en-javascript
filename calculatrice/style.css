@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: rgb(240, 224, 194);
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-size: 5rem;
+    color: blue;
+}
