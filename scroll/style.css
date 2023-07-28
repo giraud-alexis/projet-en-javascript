@@ -39,11 +39,11 @@ nav::after {
     width: 150px;
     background: radial-gradient(
         circle closest-side,
-        rgba(231, 15, 15, 0.94), transparent
+        rgba(228, 201, 201, 0.753), transparent
     );
     position: absolute;
     transform: translate(-50%, -50%);
-    transition: 0.25s;
+    transition: 0.1s;
     z-index: 20;
     opacity: 0;
     left: var(--x);
@@ -56,6 +56,7 @@ nav:hover::after {
 /*----------------------*/
 
 ul {
+    margin: 15px 0 0 0;
     display: flex;
     justify-content: space-around;
     text-align: center;
