@@ -32,7 +32,7 @@ nav {
     transition: 0.7s;
 }
 
-/* ---évènement suivi de souris--- */
+/* ---évènement suivi de souris navbar--- */
 nav::after {
     content: "";
     height: 150px;

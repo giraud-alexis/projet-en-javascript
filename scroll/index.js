@@ -8,7 +8,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-//evenement suivi de souris//
+//evenement suivi de souris navbar//
 window.addEventListener("mousemove", (e) => {
   nav.style.setProperty("--x", e.layerX + "px");
   nav.style.setProperty("--y", e.layerY + "px");
