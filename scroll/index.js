@@ -7,3 +7,10 @@ window.addEventListener("scroll", () => {
     nav.style.top = "-50px";
   }
 });
+
+//evenement suivi de souris//
+window.addEventListener("mousemove", (e) => {
+  nav.style.setProperty("--x", e.layerX + "px");
+  nav.style.setProperty("--y", e.layerY + "px");
+});
+//----------------------------
