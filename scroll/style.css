@@ -39,7 +39,7 @@ nav::after {
     width: 150px;
     background: radial-gradient(
         circle closest-side,
-        rgba(228, 201, 201, 0.753), transparent
+        rgba(236, 24, 24, 0.753), transparent
     );
     position: absolute;
     transform: translate(-50%, -50%);
