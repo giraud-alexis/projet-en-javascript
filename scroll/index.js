@@ -23,6 +23,7 @@ window.addEventListener("scroll", () => {
   }
   lastScroll = window.scrollY;
 });
+//---------------------------------
 
 //evenement suivi de souris navbar//
 window.addEventListener("mousemove", (e) => {
